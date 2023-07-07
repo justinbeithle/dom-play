@@ -1,13 +1,16 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Arizonia');
 
 html {
-    background-color: lightgray;
+    background-image: url("../css/Paper.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Quicksand', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
 }
+
 
 ::selection {
     color: #000; 
@@ -15,19 +18,32 @@ html {
 }
 
 h1 {
-    font-weight: normal;
+    font-family: 'Arizonia';
+    font-size: 75px;
+    font-weight: 1000;
     margin: auto;
-    background: #fff;
     line-height: 2.5em;
-}
+    text-align: center;
+    padding: 0%;
+ }
 
-main.wrapper {
+
+
+/*main.wrapper {
     background-color: white;
     overflow: auto;
-}
+} */
 
 p {
+    font-size: large;
     margin: 1em; /* Top Right Bottom Left (TRBL) */
+    text-align: center;
+    font-weight: 600;
+    padding: 1%;
+}
+
+.break {
+    font-size: medium;
 }
 
 h2,h3 {
@@ -36,6 +52,12 @@ h2,h3 {
     line-height: 1em;
 }
 
+h4 {
+    font-size: x-large;
+    text-decoration:underline;
+    text-decoration-style:dotted;
+     text-align: center;
+}
 a {
     color:darkcyan;
     text-decoration: none;
@@ -46,6 +68,9 @@ a:hover {
     background-color: darkcyan;
     text-decoration: none;
 }
+
+
+
 
 footer {
     clear: both;
