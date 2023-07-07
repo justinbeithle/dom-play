@@ -40,6 +40,16 @@ p {
     text-align: center;
     font-weight: 600;
     padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 38em;
+}
+
+.page-description {
+    margin-left: auto;
+    margin-right: auto;
+    width: 45em;
+
 }
 
 .break {
@@ -95,7 +105,7 @@ footer {
     picture.profile img {
         width: 50%;
         float: left;
-        margin-right: 2em;
+        margin-right: 10em;
     }
     
 }
